@@ -1,0 +1,97 @@
+/* Add this to your CSS file or inside a <style> tag */
+.nav-link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .nav-link.active::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .side-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 75%;
+    background: #000;
+    color: white;
+    z-index: 1050;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .close-btn {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .small-header {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .nav-link.active,
+  .nav-link:hover {
+    color: red;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-brand {
+      margin-left: 0;
+    }
+  
+    .d-lg-none {
+      margin-left: auto;
+      margin-top: -35px;
+    }
+  
+    .top-header {
+      display: none !important; /* Hide top header on mobile */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .side-modal {
+      display: none;
+    }
+  }
+  
+  
+  
