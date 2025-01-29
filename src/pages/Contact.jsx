@@ -26,7 +26,7 @@ const Contact = () => {
               <img
     src="https://medusa-sportwagen.de/wp-content/uploads/2024/04/medusa_sportwagen_kartenansicht.png.webp"
     alt="Kartenansicht"
-    className="mx-5 sm:mx-10 lg:mx-20 img-fluid"
+    className="mx-5 sm:mx-10 lg:mx-20 img-fluid w-75"
   />
           </div>
           <div style={{marginTop:"80px", marginLeft:"80px"}}>
