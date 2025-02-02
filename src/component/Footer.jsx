@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaInstagram, FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
@@ -24,7 +25,9 @@ const Footer = () => {
             <ul className="text-sm space-y-2">
               {/* <li className="text-red-500"><a href="#" className="text-red-500 no-underline">AGB</a></li>
               <li className="text-red-500"><a href="#" className="text-red-500 no-underline">Datenschutzerklärung</a></li> */}
-              <li className="text-red-500"><a href="/Impersum" className="text-red-500 no-underline">Impressum</a></li>
+            <li className="text-red-500">
+    <Link to="/Impersum" className="text-red-500 no-underline">Impressum</Link>
+</li>
             </ul>
           </div>
 
