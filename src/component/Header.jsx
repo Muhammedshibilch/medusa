@@ -26,7 +26,7 @@ const Header = () => {
     opacity: "0.8",
   }}
 >
-  <div className="d-flex align-items-center">
+  {/* <div className="d-flex align-items-center">
     <FaPhone className="me-2" style={{ color: "red" }} />
     <span>(0) 0000000000</span>
   </div>
@@ -52,7 +52,7 @@ const Header = () => {
     >
       <FaFacebook style={{ color: "red" }} />
     </a>
-  </div>
+  </div> */}
 </div>
 
       <hr style={{ color: "white", width: "75%", margin: "auto" }} />
@@ -62,7 +62,7 @@ const Header = () => {
       <Navbar expand="lg" className="px-5" variant="dark" style={{ backgroundColor:"black", opacity:"0.8"  }}>
         <Container className="d-flex justify-content-between align-items-center">
           {/* Logo aligned to the left */}
-          <Navbar.Brand href="#home" className="logo me-5">
+          <Navbar.Brand href="/" className="logo me-5">
             <img
               src="https://medusa-sportwagen.de/wp-content/uploads/2024/04/Logo-MEDUSA-SPORTWAGEN-GmbH-weiss-3000x800px.png.webp"
               alt="Medusa Sportwagen"
