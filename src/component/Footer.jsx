@@ -22,9 +22,9 @@ const Footer = () => {
           <div className="flex flex-col md:flex-col md:mr-6 mb-6 md:mb-0">
             <h2 className="text-lg font-semibold mb-2 ms-4">WEITERE INFORMATIONEN</h2>
             <ul className="text-sm space-y-2">
-              <li className="text-red-500"><a href="#" className="text-red-500 no-underline">AGB</a></li>
-              <li className="text-red-500"><a href="#" className="text-red-500 no-underline">Datenschutzerklärung</a></li>
-              <li className="text-red-500"><a href="#" className="text-red-500 no-underline">Impressum</a></li>
+              {/* <li className="text-red-500"><a href="#" className="text-red-500 no-underline">AGB</a></li>
+              <li className="text-red-500"><a href="#" className="text-red-500 no-underline">Datenschutzerklärung</a></li> */}
+              <li className="text-red-500"><a href="/Impersum" className="text-red-500 no-underline">Impressum</a></li>
             </ul>
           </div>
 
