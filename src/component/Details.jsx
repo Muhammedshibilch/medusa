@@ -57,8 +57,8 @@ function Details() {
 
             <p style={{ marginBottom: '20px' }}>
                 Medusa Sportwagen GmbH<br />
-                Musterstraße 1<br />
-                12345 München<br />
+                Südliche Münchner Straße 15<br />
+                82031 Grünwald<br />
                 E-Mail: <a href="mailto:info@sportwagen-medusa.de" style={{ color: '#007BFF', textDecoration: 'none' }}>info@sportwagen-medusa.de</a>
             </p>
 
